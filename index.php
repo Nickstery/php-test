@@ -1,2 +1,4 @@
 <?php
-die("Hello world");
+if (($a = rand(1,2)) === 1) {
+    die("test");
+}
